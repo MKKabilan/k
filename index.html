@@ -37,8 +37,8 @@
     <div class="nav-content" id="navContent">
         <ul class="nav-links">
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#">Join&nbsp;Us</a></li>
-          <li><a href="#">Order&nbsp;Tracking</a></li>
+          <li><a href="join.html">Join&nbsp;Us</a></li>
+          <li><a href="order.html">Order&nbsp;Tracking</a></li>
         </ul>
     </div>
   </nav>    
@@ -57,6 +57,7 @@
   <section class="hero">
     <video autoplay muted loop playsinline class="hero-video">
       <source src="video/1.mp4" type="video/mp4" />
+      <track src="captions.vtt" kind="captions" srclang="en" label="English">
       Your browser does not support the video tag.
     </video>
     <div class="overlay"></div>
@@ -102,13 +103,14 @@
     </div>
   </div>    
   <div class="search-filter-container" id="shop1">
-  <select id="categoryFilter">
+    <label for="categoryFilter">Filter by Category:</label>
+    <select id="categoryFilter" name="category">
     <option value="all">All Categories</option>
     <option value="Health Care">Health Care</option>
     <option value="haircare">Hair care</option>
     <option value="Home Care">Home Care</option>
   </select>
-<input type="text" id="searchInput" placeholder="Search products..." aria-label="Search products" />
+<input type="text" id="searchInput" aria-label="Search products" placeholder="Search products..." aria-label="Search products" />
 </div>
   <div id="productList" class="product-grid"></div>
 <section class="kayas-features">
@@ -176,6 +178,7 @@
   <h2>Explore Our Recommended Reads</h2>
   <div class="blog-grid">
     <div class="blog-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ3ldmDuakAV6cv7NwNnoKDesxzij5OWk5aA&s" alt="Coconut Oil Blog" loading="lazy">
       <div class="blog-content">
         <h3>Digestive Care</h3>
         <p>Discover how natural remedies and Ayurvedic care promote better digestion and overall wellness.</p>
@@ -225,10 +228,10 @@
     <div class="footer-logo-social">
       <h2 class="logo">Kaya's</h2>
       <div class="social-icons">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+        <a href="www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
       </div>
       <div class="footer-phone">
         <i class="fas fa-phone"></i> +91 7094983311
@@ -239,25 +242,25 @@
         <h4>About</h4>
         <p>A cottage industry creating organic products using locally sourced, chemical-free ingredients for a healthy lifestyle.</p>
         <h5>Featured on Media</h5>
-        <a href="#">Media Coverage</a>
+        <a href="media.html">Media Coverage</a>
       </div>
       <div>
         <h4>Policies</h4>
-        <a href="#">Terms and Conditions</a><br>
-        <a href="#">Refund and Return Policy</a><br>
-        <a href="#">Cancellation Policy</a><br>
-        <a href="#">Shipping Policy</a>
+        <a href="terma.html">Terms and Conditions</a><br>
+        <a href="term.html">Refund and Return Policy</a><br>
+        <a href="term.html">Cancellation Policy</a><br>
+        <a href="term.html">Shipping Policy</a>
       </div>
       <div>
         <h4>Product Ranges</h4>
-        <a href="#">Skin Care</a><br>
-        <a href="#">Hair Oils</a><br>
-        <a href="#">Herbal Powders</a><br>
-        <a href="#">Health Mixes</a>
+        <a href="product.html">Skin Care</a><br>
+        <a href="product.html">Hair Oils</a><br>
+        <a href="product.html">Herbal Powders</a><br>
+        <a href="product.html">Health Mixes</a>
       </div>
       <div>
         <h4>Contact</h4>
-        <a href="#">Contact Form</a><br>
+        <a href="contact.html">Contact Form</a><br>
         <p>Phone: (+91) 7094983311</p>
         <p>Email: info@kayastrichy.in</p>
       </div>
