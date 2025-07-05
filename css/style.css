@@ -78,7 +78,8 @@ body {
     border-radius: 10px;
     white-space: nowrap; /* ✅ prevents line break */
     display: inline-block;
-    padding: 6px 12px;
+    padding: 10px 16px;
+    margin-right: 10px;
   }
   .nav-links a.active { color: #004000; }
 #clearCartBtn {
@@ -409,6 +410,8 @@ button {
   /* Social icons container */
   .social-links {
     margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -439,12 +442,12 @@ button {
   .kayas-features .feature {
     flex: 1 1 80px;
     margin: 0px;
-    color: #0a5200;
+    color: #044000;
   }
   
   .kayas-features .feature i {
     font-size: 2.2em;
-    background: #0a5200;
+    background: #044000;
     color: white;
     padding: 5px;
     margin-top: 0px;
@@ -762,7 +765,8 @@ button {
     display: inline-block;
     background-color: #055c0c;
     color: #fff;
-    padding: 10px 18px;
+    padding: 12px 20px;
+    min-height: 44px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 6px;
